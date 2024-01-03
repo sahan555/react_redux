@@ -16,7 +16,7 @@ const App = () => {
       >
         {curState}
         <div>
-          <button onClick={() => dispatch(Inc())}>INC</button>
+          <button onClick={() => dispatch(Inc(5))}>INC</button>
           <button onClick={() => dispatch(Dec())}>DRE</button>
         </div>
       </div>

@@ -5,7 +5,7 @@ export const incdecSlice = createSlice({
     initialState:10,
     reducers:{
         Inc:(state,action)=>{
-            return state += 1;
+            return state += action.payload;
         },
         Dec:(state,action)=>{
             return state -= 1;
